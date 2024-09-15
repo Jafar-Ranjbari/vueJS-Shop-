@@ -1,0 +1,18 @@
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: $font-size;
+    color: #333;
+  }
+  
+  button {
+    background-color: $primary-color;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  
+    &:hover {
+      background-color: darken($primary-color, 10%);
+    }
+  }
+  
